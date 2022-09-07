@@ -1,0 +1,17 @@
+Redux---A container where you can store your whole application data.. So we call it to state management..Redux is needed to communication between one component to other components....
+---Redux uses props to transfer the data
+
+Redux install command---- npm install redux
+For communication between Redux and React install --- npm install react-redux...
+
+Pillars or Redux... 1,components(we create a compnents folder) 2, container(create a container name folder and it is connected to redux folder to components folder that means it is connet to react and redux.) 3, services(creacte all the redux folders inside this folder action, reducer, and constants folder is presents)...
+
+In redux we are using components throught HomeComponent and then app.js, before we are using componets in app.js directilly..
+
+mapDispachToProps()----- when we sent data from component to redux store 
+mapStateToProps()--------whent redux store data used to other componets
+
+
+Action---- action send data from react to store and store is a all application data
+
+Git-Hub command ---- git init and git add . and git commit -m "first commit" and git branch -M master and url and git push -u origin master and given email and password

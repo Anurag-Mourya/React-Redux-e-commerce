@@ -1,0 +1,127 @@
+.card_style{
+    cursor: pointer;
+    transition: .3s;
+}
+  
+  .smalltrash{
+      display: none;
+  }
+  
+  
+  .card_style:hover{
+      box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.082);
+  }
+  
+  .iteamsdetails{
+      max-width: 750px;
+      padding: 20px;
+      margin: auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.082);
+  }
+
+  .detailcontainer{
+    margin-top: 100px;
+  }
+  .items_img{
+      flex: .4;
+  }
+  .items_img img{
+      width: 20rem;
+      border-radius: 5px;
+  }
+  
+  .details{
+      flex: .5;
+  };
+  
+  .rating{
+      background-color: green;
+  }
+  
+  @media (max-width:772px){
+      .iteamsdetails{
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+      }
+
+      .api{
+        position: absolute;
+        top: 86px;
+       
+      left: 80px;
+    }
+
+    .center{
+    
+        position: absolute;
+        bottom: 24x;
+        right: 20%;
+        top: 17%;
+       
+    }
+    
+  }
+  
+  @media (max-width:450px){
+      .smalltrash{
+          display: block;
+      }
+      .largetrash{
+          display:none;
+      }
+      .emptycart_img{
+          margin-right: 50px;
+      }
+      .smallclose{
+          display: none;
+      }
+  
+      /* individual iteams details */
+     
+      .items_img img{
+          width: 16rem;
+      }
+      
+  }
+
+  .sticky_nav{
+   position: fixed;
+  }
+
+
+  .border{
+    border: 2px solid;
+    width :690px;
+    min-height: 500px;
+}
+
+
+.api{
+    position: absolute;
+    top: 86px;
+  left: 8%;
+}
+
+.center{
+    
+    position: absolute;
+    bottom: 24x;
+    right: 17%;
+    top: 17%;
+}
+
+.button_div{
+    position: absolute;
+    bottom: 13px;
+    right: 16px;
+    width: 90%;
+}
+
+.card_details p{
+    margin-top: 20px;
+
+}
